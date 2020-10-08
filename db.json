@@ -1,0 +1,74 @@
+{
+  "usuarios": [
+    {
+      "nome": "Diego",
+      "email": "diego@gmail.com",
+      "password": "123321",
+      "id": 1,
+      "admim": true,
+      "theme": "DarkTheme"
+    },
+    {
+      "nome": "Sérgio",
+      "email": "ser@ribeiro.me",
+      "password": "123123",
+      "id": 2,
+      "admim": false,
+      "theme": "DarkTheme"
+    },
+    {
+      "id": 3,
+      "email": "rodrigo@sobremeno.me",
+      "password": "123123",
+      "nome": "Rodrigo",
+      "admim": true,
+      "theme": "DefaultTheme"
+    },
+    {
+      "id": 4,
+      "email": "estefany@cristina.me",
+      "password": "123123",
+      "nome": "Estefany",
+      "admim": false,
+      "theme": "DarkTheme"
+    },
+    {
+      "id": 6,
+      "email": "erick@sobrenome.me",
+      "password": "123123",
+      "nome": "Erick",
+      "admim": true,
+      "theme": "DarkTheme"
+    }
+  ],
+  "projetos": [
+    {
+      "descricao": "Projeto Final",
+      "id": 1
+    },
+    {
+      "descricao": "Terceiro Projeto",
+      "id": 3
+    },
+    {
+      "descricao": "Estudar",
+      "id": 4
+    }
+  ],
+  "tarefas": [
+    {
+      "descricao": "Estudar React",
+      "usuarioId": 1,
+      "projetoId": 1,
+      "id": 7,
+      "concluido": true
+    },
+    {
+      "descricao": "React",
+      "usuarioId": 1,
+      "projetoId": 4,
+      "concluido": false,
+      "id": 8
+    }
+  ]
+}
